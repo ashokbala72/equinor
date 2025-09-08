@@ -1,19 +1,19 @@
 # Core app framework
-streamlit==1.36.0
+streamlit
 
 # Data manipulation
-pandas==2.2.2
-numpy==1.26.4
+pandas
+numpy
 
 # Visualization
-matplotlib==3.8.4
+matplotlib
 
 # PowerPoint export
-python-pptx==0.6.23
+python-pptx
 
 # Azure OpenAI client
-openai==1.30.5
-python-dotenv==1.0.1
+openai
+python-dotenv
 
 # PDF export (optional, if you re-enable later)
-fpdf2==2.7.9
+fpdf2

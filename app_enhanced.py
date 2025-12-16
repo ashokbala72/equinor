@@ -187,7 +187,7 @@ def render_section(name, scenario, data_func, plot_func, source_info, focus_area
 # Streamlit UI
 # ---------------------------
 st.set_page_config(page_title="Equinor Dashboard", layout="wide")
-st.title("🌍 Equinor Sustainability Dashboard")
+st.title("🌍 Sustainability Dashboard")
 
 tabs = st.tabs([
     "⚡ Energy Mix",
@@ -311,3 +311,4 @@ with tabs[9]:
         file_name=f"Sustainability_Report_{scenario}.pptx",
         mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
     )
+
